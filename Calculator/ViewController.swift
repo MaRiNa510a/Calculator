@@ -101,6 +101,15 @@ class ViewController: UIViewController {
         }
         label.text = String(number3)
     }
+    
+    @IBAction func c() {
+        number1 = 0
+        number2 = 0
+        number3 = 0
+        ope = 0
+        label.text = String(number1)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
